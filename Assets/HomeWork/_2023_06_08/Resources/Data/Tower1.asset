@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a392201ccb1dc428c7fda7be5b227c, type: 3}
+  m_Name: Tower1
+  m_EditorClassIdentifier: 
+  towers:
+  - name: TowerLv1
+    description: 
+    tower: {fileID: 5465169718920974621, guid: 66de428ea52c0c24792b089b82645c11, type: 3}
+    hp: 10
+    cost: 1
+    damage: 1
+  - name: TowerLv2
+    description: 
+    tower: {fileID: -5855126100729081674, guid: 8fc6e9332463de144a2224b2166e4f5d, type: 3}
+    hp: 15
+    cost: 3
+    damage: 3
+  - name: TowerLv3
+    description: 
+    tower: {fileID: 4810510956121418172, guid: 772881413e7e1c2448ff0bfc63d44afa, type: 3}
+    hp: 20
+    cost: 5
+    damage: 5
+  - name: TowerLv4
+    description: 
+    tower: {fileID: -1193367482151816708, guid: db3dd7ba25bd2994ebacf01805030861, type: 3}
+    hp: 40
+    cost: 10
+    damage: 10
